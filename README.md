@@ -12,7 +12,16 @@ py -m venv env
 
 <br>
 
-2. Activate ENV
+2. Copy main.py to ENV
+
+
+```bash
+copy .\main.py env/
+```
+
+<br>
+
+3. Activate ENV
 
 ```bash
 cd env
@@ -21,7 +30,7 @@ cd env
 
 <br>
 
-3. Install Packages
+4. Install Packages
 
 ```bash
 pip install scrapy
@@ -30,7 +39,7 @@ pip install pandas
 
 <br>
 
-4. Run Scrapy
+5. Run Scrapy
 
 ```bash
 scrapy runspider main.py
