@@ -1,4 +1,3 @@
-import json
 import scrapy
 import pandas as pds
 
